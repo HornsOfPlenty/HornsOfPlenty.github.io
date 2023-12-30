@@ -1,7 +1,5 @@
 # Chulapa 101
 
-Click [**Use this template**](https://github.com/dieghernan/chulapa-101/generate) button above for cloning this repo and get started with [Chulapa Jekyll theme](https://github.com/dieghernan/chulapa).
-
 Contains basic configuration to get you a site with:
 
 - [Sample posts](./_posts/) and [paginated blog index](./blog/index.html).
@@ -15,3 +13,6 @@ Contains basic configuration to get you a site with:
 - Sample files for extending the theme with your [own scripts](./_includes/custom/) and [css](./assets/css/).
 
 [Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExOTMxODU1MjNdfQ==
+-->
