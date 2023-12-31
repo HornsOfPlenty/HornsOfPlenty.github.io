@@ -97,9 +97,15 @@ navbar:
   style     :  dual
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   :  Home # Title in navbar
-    url     :  # default["url/baseurl"]
-    img     :  # An small image, try 30x30px
+    - title   : Home # Title in navbar
+      url     : # default["url/baseurl"]
+      img     : # An small image, try 30x30px
+    - title   : About
+      url     : 
+    - title   : Book Us
+      url     :
+    - title   : Join Us
+      url     : 
   nav:
   - title   : News
     url     : /news/

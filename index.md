@@ -3,17 +3,41 @@ layout: default
 title: Horns Of Plenty
 header_type: hero
 subtitle: Oxford's community street band
-show_sociallinks  : true
+project_links: 
+    - url:  https://www.facebook.com/hornsofplenty
+      icon: fab fa-facebook
+    - url:  info@hornsofplenty.co.uk
+      icon: far fa-envelope
+    - url:  https://twitter.com/horns_of_plenty
+      icon: fab fa-twitter
 ---
 
-Contains basic configuration to get you a site with:
+## Who are Horns of Plenty?
 
-- Sample collection with Markdown and kramdown cheatsheets and [collection index](./cheatsheets).
-- Demo page with the different Bootstrap components and how they look with the actual skin settings.
-- Site search with Lunr.
-- Sample `_config` with minimal configuration. `primary` color is set to <span class="text-primary">LightSkyBlue</span> and `autothemer` is enabled. [Learn how to customize your site](https://dieghernan.github.io/chulapa/docs/03-theming).
-- Sample files for extending the theme with your own scripts and css.
+Featuring brass, saxophones, clarinets, and percussion, we play a lively mix of music from around the world.
 
-On addition, `jekyll-sitemap` generates your sitemap on [./sitemap.xml](./sitemap.xml), and Chulapa generates an Atom feed on [./atom.xml](./atom.xml) and a RSS 2.0 feed on [./rss.xml](./rss.xml).
+You'll find us at festivals, fairs, processions, street parties, and other events within Oxford city and in neighbouring towns and villages.
 
-[Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
+We were formed in 2007 for the Cowley Road Carnival, and have around 35 active members - you'll normally see 12-20 of us at each gig. [Fancy joining us?]()
+
+## Book us for your event
+
+To discuss a booking, please email <gigs@hornsofplenty.co.uk>.
+
+We don't need power or a stage. Our rates are negotiable and all money goes towards keeping the band going. Most of our gigs are within the city of Oxford, but we do travel further afield sometimes.
+
+Because we're a large band, it can take a while to coordinate and ensure enough players are available for your desired date. Please contact us with as much notice as possible - generally at least a month.
+
+## Join the band
+
+To discuss becoming a member of the Horns of Plenty, please email <info@hornsofplenty.co.uk>.
+
+Things you might want to know:
+
+- Core instruments are saxes (all sizes), clarinets, trumpets, trombones, sousaphones, and marching percussion. We're usually particularly in need of more lower-register instruments.
+- We're a relaxed, mixed-ability, amateur adult band: no auditions or minimum grade standards.
+- We rehearse on Tuesday evenings year-round, from 7-9pm in Iffley. You can try a rehearsal or two with no pressure to commit longer-term - and it's OK to miss a rehearsal here and there.
+- If you play an instrument not listed above that you think might fit, please do ask us!
+- We often perform outdoors and sometimes on the move (e.g. carnivals/parades). Something to bear in mind.
+- You won't have to start performing until you feel ready. We do perform without sheet music - everyone takes a while to learn their parts.
+- Once you're sure you want to stick around, we do have membership fees that go towards hiring our rehearsal space and other essential costs. These can be paid monthly or annually, and are income/means based.

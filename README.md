@@ -12,7 +12,9 @@ Chulapa is a Jekyll theme. Content below came with the theme and will be removed
 - Demo page with the different Bootstrap components and how they look with the actual skin settings.
 - Sample 404 page.
 - Site search with Lunr.
-- Sample [`_config`](_config.yml) with minimal configuration.
 - Sample files for extending the theme with your [own scripts](./_includes/custom/) and [css](./assets/css/).
+- Sample `_config` with minimal configuration. `primary` color is set to <span class="text-primary">LightSkyBlue</span> and `autothemer` is enabled. [Learn how to customize your site](https://dieghernan.github.io/chulapa/docs/03-theming).
 
-[Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
+[Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own. [Learn how to customize your site](https://dieghernan.github.io/chulapa/docs/03-theming).
+
+On addition, `jekyll-sitemap` generates your sitemap on [./sitemap.xml](./sitemap.xml), and Chulapa generates an Atom feed on [./atom.xml](./atom.xml) and a RSS 2.0 feed on [./rss.xml](./rss.xml).
