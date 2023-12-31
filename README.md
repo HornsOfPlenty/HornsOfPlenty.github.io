@@ -1,18 +1,18 @@
-# Chulapa 101
+# Horns of Plenty Website
 
-Contains basic configuration to get you a site with:
+This repository is a work-in-progress for a new, simple website for [Horns of Plenty](https://www.hornsofplenty.co.uk/). Watch this space.
 
-- [Sample posts](./_posts/) and [paginated blog index](./blog/index.html).
+Gist of technical side: experimenting with hosting on GitHub pages using Jekyll, and editing primarily via GitHub Codespaces to avoid any need for local development setups.
+
+## Chulapa theme info
+
+Chulapa is a Jekyll theme. Content below came with the theme and will be removed as this site is configured and tailored for Horns.
+
 - [Sample collection](./_cheatsheet/) with Markdown and kramdown cheatsheets and [collection index](./_pages/cheatsheet.md).
-- Archive pages for posts grouped by year, category, and tag.
 - Demo page with the different Bootstrap components and how they look with the actual skin settings.
 - Sample 404 page.
 - Site search with Lunr.
 - Sample [`_config`](_config.yml) with minimal configuration.
-- Sample [`algolia-search.yml`](algolia-search.yml) for using Algolia+GitHub Actions. More guidance in the top of the file.
 - Sample files for extending the theme with your [own scripts](./_includes/custom/) and [css](./assets/css/).
 
 [Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTMxODU1MjNdfQ==
--->
