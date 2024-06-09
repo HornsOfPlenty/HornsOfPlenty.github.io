@@ -5,7 +5,8 @@
         <div class="navbar-brand">
             <a class="navbar-item"
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <strong>{{site.title}}</strong>
+                <!-- <strong>{{site.title}}</strong> -->
+                <img src="/assets/images/navbar-logo.png" alt="{{site.title}}" />
             </a>
             <div class="navbar-burger" data-target="navbar-menu">
                 <span></span>
@@ -22,12 +23,17 @@
             <!-- navbar items | right side -->
             <div class="navbar-end">
                 <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
-                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
+                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">TOP</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">ABOUT</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">CONTACT</a>
-                <!--<a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
-                    href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>-->
-                <!--{% include dropdown.html %}-->
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#gigs">GIGS</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#bookings">BOOK US</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#join">JOIN US</a>
+
+                <!-- <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/blog">BLOG</a> -->
+
+                {% include dropdown.html %}
+
             </div>
 
         </div>

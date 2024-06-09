@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Horns of Plenty
 # Description of the Site
-description: Horns of Plenty are a community street band in Oxford, UK
+description: Oxford's community street band
 # URL of Image of the Site
 site-image: /assets/images/banner.jpg
 # Keywords of the Site
@@ -45,7 +45,7 @@ author-name: Horns of Plenty
 # URL for the Image of the Author
 author-image: https://github.com/HornsOfPlenty.png
 # 60 Words About the Author
-author-about: Horns of Plenty are a community street band in Oxford, UK
+author-about: Horns of Plenty are Oxford's community street band
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://www.hornsofplenty.co.uk
 
