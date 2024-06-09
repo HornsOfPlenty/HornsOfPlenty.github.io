@@ -1,53 +1,26 @@
-# WhatATheme
-**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
+# Horns of Plenty Website
 
-#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
+This repository is a work-in-progress for a new, simple website for [Horns of Plenty](https://www.hornsofplenty.co.uk/). Watch this space.
 
-![WhatATheme](assets/images/meta.jpg)
+Gist of technical side: experimenting with hosting on GitHub pages using Jekyll, and editing primarily via GitHub Codespaces to avoid any need for local development setups.
 
-# Features :sparkles:
-* Free and Easy setup
-* No Coding Required
-* Compatible with [Github Pages](https://pages.github.com/)
-* Responsive and Blogging Ready
-* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
-* Minified CSS using SaSS
-* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
-* Stylesheet built using SaSS
-* Comments using Disqus
-* Analytics using Google Analytics
-* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
+---
 
-# Installation :books:
+# Installation for website development
 ### System Requirements
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Jekyll](https://jekyllrb.com/)
-> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
 ### Up and Running
-* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
-* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
+* Get a copy of the git repository to your local machine with dependencies installed.
 * Inside the directory run `bundle install`
 * Host WhatATheme locally by running `bundle exec jekyll s`
 
-> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
-
-[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
-
 ---
 
-### Content Credits :green_heart:
-* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
-* [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
-* [Font Awesome](https://fontawesome.com/)
-* [Poppins Font](https://fonts.google.com/specimen/Poppins)
-* [Memphis Pattern](https://www.freepik.com/free-vector/memphis-pattern-background_4034913.htm#page=1&query=memphis%20pattern&position=23) used for some Social Media Images and the Favicon.
+# Licence
 
----
+The underlying source code used to format and display the content of this website project (primarily, the WhatATheme theme for jekyll) is licensed under the GNU General Public License v2.0, with copyright ownership as stated in the [upstream repository licence](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE) and applicable credits as per the same upstream repository.
 
-### Credits :bulb:
-* [Sneha Omer](http://sassyecoder.github.io/)
-* [Harsh Trivedi](http://harsh98trivedi.github.io/)
+Website content stored directly within this GitHub repository is © Horns of Plenty. Such content is licensed according to the [GitHub Terms of Service ("D5. License Grant to Other Users")](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#5-license-grant-to-other-users) while it remains within the GitHub Service. For use outside of GitHub, such content is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-### License
-The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
+Content stored outside this GitHub repository, but linked or referenced so it becomes visible on the final rendered version of the website (for example, images, audio, and video content), should be assumed to be under exclusive copyright, with all rights reserved, unless clearly indicated otherwise. The copyright holder may be the Horns of Plenty or another entity. Please contact the Horns of Plenty to clarify the copyright position of a particular work or content item, if required.
