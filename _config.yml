@@ -18,7 +18,7 @@ site-keywords: band, street band, community band, fanfare, oxford, horns, music,
 favicon-url: favicon.ico
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+# heroimage: /assets/images/red-splash.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -26,12 +26,7 @@ email: info@hornsofplenty.com
 facebook_username: hornsofplenty
 twitter_username: horns_of_plenty
 instagram_username:
-linkedin_username:
-github_username:
 youtube_channel_id: UC7SRMASfkyhstyLbuMlsT4Q
-reddit_username:
-behance_username:
-dribbble_username:
 spotify_username:
 
 # Google Analytics
