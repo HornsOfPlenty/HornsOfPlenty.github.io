@@ -7,7 +7,76 @@
             </h1>
             <hr class="has-background-black">
 
-            <p>Coming soon...</p>
+            <p>Some of these may be subject to change, but here are some places you might catch us performing soon.
+                <br />
+                We do private and pop-up gigs too, so you might even see us unexpectedly. Bonus!</p>
+            <br />
+
+            {% assign curr_date_num = "today" | date: "%Y%m%d" %}
+
+            <!-- TODO styling, and a visual indication of whether there's a clickable link or not.
+                And a visible marker for free!
+            -->
+
+            <div class="columns is-centered is-multiline is-mobile">
+
+                {% for gig in site.data.gigs %}
+
+                    {% assign gig_date_num = gig.date | date: "%Y%m%d"%}
+
+                    {% if gig_date_num >= curr_date_num %}
+
+                        <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+                            id="gig-card">
+
+                            {% unless gig.link == %}
+                            <a href="{{gig.link}}" target="_blank">
+                            {% endunless %}
+
+                            <div class="card has-background-black">
+                            <div class="card-content">
+                                <h2 class="title has-text-white is-size-4">{{gig.name}}</h2>
+                                {% unless gig.place == %}
+                                <p class="">{{gig.place}}</p>
+                                {% endunless %}
+
+                                {% assign multiday_suffix = "" %}
+                                {% assign gig_date_formatted = gig.date | date: "%a %e %b %Y" %} <!-- Date format is: Sat 12 Aug 1987. https://strftime.net/ -->
+                                {% unless gig.days == %}
+                                    {% capture multiday_suffix %} for {{gig.days}} days{% endcapture %}
+                                {% endunless %}
+
+                                {% assign gig_date_presentation = gig_date_formatted | append: multiday_suffix %}
+
+                                <p class="has-text-white content"><time datetime="{{gig.date}}">{{gig_date_presentation}}</time></p>
+                            </div>
+                            </div>
+
+                            {% unless gig.link == %}
+                            </a>
+                            {% endunless %}
+
+                        </div>
+
+                    {% endif %}
+
+                {% else %}
+                    <!-- This will be shown if the gigs.yml data list is actually EMPTY.
+                        But note it won't take effect if the gigs data has entries but they're all in the past.
+                     -->
+                    <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+                     id="gig-card">
+                        <div class="has-background-black card">
+                            <div class="card-content">
+                                <p class="has-text-white content">We're having a bit of a rest right now.</p>
+                                <p class="has-text-white content">Please check back in a month or so!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                {% endfor %}
+
+              </div>
 
 
             </div>
