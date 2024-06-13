@@ -14,6 +14,10 @@ Gist of technical side: experimenting with hosting on GitHub pages using Jekyll,
 * Get a copy of the git repository to your local machine with dependencies installed.
 * Inside the directory run `bundle install`
 * Host WhatATheme locally by running `bundle exec jekyll s`
+### Periodic updates
+* `bundle update`
+* `gem update`
+
 
 ---
 
