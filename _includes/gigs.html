@@ -14,10 +14,6 @@
 
             {% assign curr_date_num = "today" | date: "%Y%m%d" %}
 
-            <!-- TODO styling, and a visual indication of whether there's a clickable link or not.
-                And a visible marker for free!
-            -->
-
             <div class="columns is-centered is-multiline is-mobile">
 
                 {% for gig in site.data.gigs %}
@@ -33,24 +29,46 @@
                             <a href="{{gig.link}}" target="_blank">
                             {% endunless %}
 
-                            <div class="card has-background-black">
-                            <div class="card-content">
-                                <h2 class="title has-text-white is-size-4">{{gig.name}}</h2>
-                                {% unless gig.place == %}
-                                <p class="">{{gig.place}}</p>
-                                {% endunless %}
+                            <div class="card has-background-black"><div class="card-content">
 
                                 {% assign multiday_suffix = "" %}
                                 {% assign gig_date_formatted = gig.date | date: "%a %e %b %Y" %} <!-- Date format is: Sat 12 Aug 1987. https://strftime.net/ -->
                                 {% unless gig.days == %}
                                     {% capture multiday_suffix %} for {{gig.days}} days{% endcapture %}
                                 {% endunless %}
-
                                 {% assign gig_date_presentation = gig_date_formatted | append: multiday_suffix %}
+                                <p class="has-text-white has-text-weight-bold"><time datetime="{{gig.date}}">{{gig_date_presentation}}</time></p>
 
-                                <p class="has-text-white content"><time datetime="{{gig.date}}">{{gig_date_presentation}}</time></p>
-                            </div>
-                            </div>
+                                <h2 class="title is-size-4 is-horns-red">{{gig.name}}</h2>
+                                {% unless gig.place == %}
+                                <p class="has-text-white">{{gig.place}}</p>
+                                {% endunless %}
+
+                                <div class="columns is-mobile is-size-7 pt-4" style="vertical-align: bottom;" >
+                                    <div class="column has-text-left is-narrow pl-0 ml-0">
+                                        {% if gig.free == "Y" %}
+
+                                        <p class="is-horns-red">
+                                        <span class="fa-stack is-horns-red has-text-right" style="vertical-align: bottom;">
+                                            <i class="fas fa-pound-sign fa-stack-1x"></i>
+                                            <i class="fas fa-slash fa-stack-1x"></i>
+                                        </span><span class="pb-1 is-size-6" style="vertical-align: middle;">free!</span>
+                                        </p>
+
+                                        {% else %}
+                                        <p class="has-text-white pl-3"><i class="fas fa-pound-sign"></i></p>
+                                        {% endif %}
+                                    </div>
+                                    <div class="column has-text-right has-text-white">
+                                        {% unless gig.link == %}
+                                        <p class="">
+                                        <i class="fas fa-external-link-alt"></i> More info
+                                        </p>
+                                        {% endunless %}
+                                    </div>
+                                </div>
+
+                            </div></div>
 
                             {% unless gig.link == %}
                             </a>
