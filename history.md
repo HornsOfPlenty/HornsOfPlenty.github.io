@@ -1,5 +1,5 @@
 ---
-title: Our origin story
+title: Our story
 layout: page
 ---
 
