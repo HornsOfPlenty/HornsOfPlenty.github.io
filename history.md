@@ -29,4 +29,11 @@ But wherever you find us, you ‘ll see smiling faces, tapping toes and plenty o
 <div class="column is-two-thirds" >
     <img src="/assets/images/bridge.jpeg" alt="Horns of Plenty on the bridge at Iffley Lock" class="image" />
 </div>
+
 </div>
+
+<!--Footer Button-->
+<div class="columns is-centered">
+<div class="column container has-text-centered has-background-grey-darker is-one-quarter" id="backtotop">
+    <a class="has-text-white" href="{{site.url}}{{site.baseurl}}">BACK TO FRONT PAGE</a>
+</div></div>
