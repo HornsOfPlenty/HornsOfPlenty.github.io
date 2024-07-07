@@ -12,6 +12,8 @@ source "http://rubygems.org"
 gem "csv"
 gem "bigdecimal"
 
+gem "activesupport", ">= 7"
+
 #gem "jekyll"
 gem "rack"
 gem "sinatra", ">= 3", "< 4"
@@ -30,7 +32,7 @@ end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo" #, "~> 1.2"  ## dependency clash between tzinfo and activesupport
   gem "tzinfo-data"
 end
 

@@ -1,19 +1,16 @@
 # Horns of Plenty Website
 
-This repository is a work-in-progress for a new, simple website for [Horns of Plenty](https://www.hornsofplenty.co.uk/). Watch this space.
-
-Gist of technical side: experimenting with hosting on GitHub pages using Jekyll, and editing primarily via GitHub Codespaces to avoid any need for local development setups.
+This repository hosts the website for [Horns of Plenty](https://www.hornsofplenty.co.uk/). It is a simple static site using Jekyll.
 
 ---
 
 # Installation for website development
-### System Requirements
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Jekyll](https://jekyllrb.com/)
 ### Up and Running
-* Get a copy of the git repository to your local machine with dependencies installed.
+* Install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/) to your local machine.
+* Get a copy/fork of the git repository to your local machine.
 * Inside the directory run `bundle install`
-* Host WhatATheme locally by running `bundle exec jekyll s`
+* Start a local webserver process by running `bundle exec jekyll s`
+* Code away...
 ### Periodic updates
 * `bundle update`
 * `gem update`
