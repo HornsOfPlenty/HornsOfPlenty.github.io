@@ -15,18 +15,6 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: FloFest
-  date: 2024-06-22
-  place: Florence Park
-  free: Y
-  link: http://www.flofest.uk
-- name: Sol Samba turns 25
-  date: 2024-07-06
-  place: Bonn Square
-  free: Y
-- name: OxFest
-  date: 2024-07-20
-  place: The Red Lion pub (Marston)
 - name: Truck Festival
   date: 2024-07-27
   days: 2
@@ -44,3 +32,7 @@
 - name: Oktoberfest
   date: 2024-10-05
   place: The Star pub (nr The Plain)
+- name: Iffley street party (TBC)
+  date: 2024-09-29
+  place: Iffley (TBC)
+  free: Y
