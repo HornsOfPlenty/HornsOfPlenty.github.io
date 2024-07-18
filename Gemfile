@@ -17,6 +17,7 @@ gem "activesupport", ">= 7"
 #gem "jekyll"
 gem "rack"
 gem "sinatra", ">= 3", "< 4"
+gem "rexml", ">= 3.3.2"
 
 gem "webrick"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
