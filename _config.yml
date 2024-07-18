@@ -3,8 +3,6 @@ markdown: kramdown
 
 # URL of the Site
 url: www.hornsofplenty.co.uk
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl:
 
 # Title of the Site
 title: Horns of Plenty

@@ -4,7 +4,7 @@
         <!-- logo or branding image on left side -->
         <div class="navbar-brand">
             <a class="navbar-item"
-                href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
+                href="{% if page.layout == 'default' %}{{site.url}}/#{% else %}{{site.url}}/{% endif %}">
                 <!-- <strong>{{site.title}}</strong> -->
                 <img src="/assets/images/navbar-logo.png" alt="{{site.title}}" />
             </a>
@@ -23,13 +23,13 @@
             <!-- navbar items | right side -->
             <div class="navbar-end">
                 <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
-                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">TOP</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">ABOUT</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#gigs">GIGS</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#bookings">BOOK US</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#join">JOIN US</a>
+                    href="{% if page.layout == 'default' %}{{site.url}}/#{% else %}{{site.url}}/{% endif %}">TOP</a>
+                <a class="navbar-item" href="{{site.url}}/#about">ABOUT</a>
+                <a class="navbar-item" href="{{site.url}}/#gigs">GIGS</a>
+                <a class="navbar-item" href="{{site.url}}/#bookings">BOOK US</a>
+                <a class="navbar-item" href="{{site.url}}/#join">JOIN US</a>
 
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/history">HISTORY</a>
+                <a class="navbar-item" href="{{site.url}}/history">HISTORY</a>
 
             </div>
 

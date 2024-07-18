@@ -3,8 +3,6 @@ title: Our story
 layout: page
 ---
 
-<!-- TODO needs one or two nice images, perhaps older ones. -->
-
 Oxford is a great city. It’s small, but there’s always something going on. So, a lot of musicians here know each other. We cross over in different bands and orchestras. It makes for a pretty incredible musical melting pot.
 
 Back in 2007 there was some lottery funding floating around and one of our founders, Simon, decided that it was time for Oxford to have something new in the musical mix. He’d carried the vision of an Oxford-based street band in his head for some time, so this felt like the moment! He invited a good friend of his, Tim Hill, the baritone sax player for Somerset-based Tongues of Fire, to come and help get the project off the ground. They put out a message looking for keen brass, wind and percussionists to come together to form a new sound on the streets of the city.
@@ -35,5 +33,5 @@ But wherever you find us, you ‘ll see smiling faces, tapping toes and plenty o
 <!--Footer Button-->
 <div class="columns is-centered">
 <div class="column container has-text-centered has-background-grey-darker is-one-quarter" id="backtotop">
-    <a class="has-text-white" href="{{site.url}}{{site.baseurl}}">BACK TO FRONT PAGE</a>
+    <a class="has-text-white" href="{{site.url}}">BACK TO FRONT PAGE</a>
 </div></div>
