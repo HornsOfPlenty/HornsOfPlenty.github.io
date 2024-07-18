@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # URL of the Site
-url: www.hornsofplenty.co.uk
+url: https://www.hornsofplenty.co.uk
 
 # Title of the Site
 title: Horns of Plenty
@@ -28,7 +28,7 @@ youtube_channel_id: UC7SRMASfkyhstyLbuMlsT4Q
 spotify_username:
 
 # Google Analytics
-google-analytics: # todo
+google-analytics: G-CTQVXL46Y4
 
 # Disqus
 disqus-shortname:
