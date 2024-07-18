@@ -8,4 +8,20 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+    <!-- jQuery needed for cookie banner -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Cookie Banner -->
+    <link rel="stylesheet" href="/assets/css/cookiebanner.style.css">
+    <script src="/assets/js/cookiebanner.script.js"></script>
+    <style>
+        *{margin:0;padding:0;text-decoration:none;list-style:none;box-sizing:border-box;}
+    </style>
+    <script>
+        $(document).ready(function() {
+            cookieBanner.init();
+        });
+    </script>
+
 </head>
