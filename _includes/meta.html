@@ -32,12 +32,4 @@
 <meta itemprop="description" content="{% unless page.layout == 'post' %}{{site.description}}{% else %}{{page.description}}{% endunless %}">
 <meta itemprop="image" content="{% unless page.layout == 'post' %}{{site.site-image}}{% else %}{{page.post-image}}{% endunless %}">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CTQVXL46Y4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CTQVXL46Y4');
-</script>
+<!-- Google Analytics would go here, but is added by cookie banner script -->
