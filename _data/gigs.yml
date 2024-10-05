@@ -15,24 +15,15 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Truck Festival
-  date: 2024-07-27
-  days: 2
-  place: Hill Farm, Oxfordshire
-  link: https://truckfestival.com
-- name: Oxford Dance Camp
-  date: 2024-08-06
-  place: Sandy Lane Farm, Tiddington
-  link: https://oxforddancecamp.org
-- name: Cowley Road Carnival
-  date: 2024-09-01
-  free: Y
-  place: Cowley Road
-  link: https://www.cowleyroadworks.org
 - name: Oktoberfest
   date: 2024-10-05
   place: The Star pub (nr The Plain)
-- name: Iffley street party (TBC)
-  date: 2024-09-29
-  place: Iffley (TBC)
+- name: Rose Hill Creative Lights Festival
+  date: 2024-11-16
   free: Y
+  place: Rose Hill Community Centre (start)
+  link: https://www.oxlightfest.com/
+- name: Tap Social Christmas Party (TBC)
+  date: 2024-12-21
+  place: Tap Social, Botley
+  link: https://www.tapsocialmovement.com/pages/events
