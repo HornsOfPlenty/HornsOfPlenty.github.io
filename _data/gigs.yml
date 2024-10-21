@@ -15,14 +15,14 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Oktoberfest
-  date: 2024-10-05
-  place: The Star pub (nr The Plain)
 - name: Rose Hill Creative Lights Festival
   date: 2024-11-16
   free: Y
   place: Rose Hill Community Centre (start)
   link: https://www.oxlightfest.com/
+- name: Christmas Fair
+  date: 2024-12-07
+  place: Oxford Botanic Garden
 - name: Tap Social Christmas Party (TBC)
   date: 2024-12-21
   place: Tap Social, Botley
