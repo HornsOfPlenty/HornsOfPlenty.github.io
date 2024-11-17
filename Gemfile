@@ -16,7 +16,7 @@ gem "activesupport", ">= 7"
 
 #gem "jekyll"
 gem "rack"
-gem "sinatra", ">= 3", "< 4"
+gem "sinatra", ">= 3", "< 5"
 gem "rexml", ">= 3.3.2"
 
 gem "webrick"
