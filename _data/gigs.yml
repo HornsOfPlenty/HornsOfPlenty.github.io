@@ -15,14 +15,17 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Rose Hill Creative Lights Festival
-  date: 2024-11-16
+- name: Open Day - Hurst Street Studios
+  date: 2024-11-30
   free: Y
-  place: Rose Hill Community Centre (start)
-  link: https://www.oxlightfest.com/
+  place: 50 Hurst Street
 - name: Christmas Fair
   date: 2024-12-07
   place: Oxford Botanic Garden
+- name: Playing for Christmas shoppers
+  date: 2024-12-10
+  free: Y
+  place: Near Covered Market
 - name: Tap Social Christmas Party (TBC)
   date: 2024-12-21
   place: Tap Social, Botley
