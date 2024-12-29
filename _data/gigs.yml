@@ -15,7 +15,7 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Tap Social Christmas Party
-  date: 2024-12-21
-  place: Tap Social, Botley
-  link: https://www.tapsocialmovement.com/pages/events
+#- name: Tap Social Christmas Party
+#  date: 2024-12-21
+#  place: Tap Social, Botley
+#  link: https://www.tapsocialmovement.com/pages/events
