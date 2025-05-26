@@ -15,7 +15,23 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-#- name: Tap Social Christmas Party
-#  date: 2024-12-21
-#  place: Tap Social, Botley
-#  link: https://www.tapsocialmovement.com/pages/events
+- name: Headington Festival
+  date: 2025-06-01
+  place: Bury Knowle Park, Headington
+  link: https://www.headingtonaction.org/festival.html
+  free: Y
+- name: Eynsham Carnival
+  date: 2025-07-05
+  place: Eynsham (parade/arena)
+  link: https://www.eynshamcarnival.com/
+  free: Y
+- name: Truck Festival
+  date: 2025-07-26
+  days: 2
+  place: Hill Farm, Steventon
+  link: https://truckfestival.com/
+- name: HONK!
+  date: 2025-09-26
+  days: 3
+  place: Bradford, Yorkshire
+  link: https://honkbradford.com/
