@@ -15,11 +15,6 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Headington Festival
-  date: 2025-06-01
-  place: Bury Knowle Park, Headington
-  link: https://www.headingtonaction.org/festival.html
-  free: Y
 - name: Eynsham Carnival
   date: 2025-07-05
   place: Eynsham (parade/arena)
