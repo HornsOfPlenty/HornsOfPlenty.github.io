@@ -15,11 +15,6 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Eynsham Carnival
-  date: 2025-07-05
-  place: Eynsham (parade/arena)
-  link: https://www.eynshamcarnival.com/
-  free: Y
 - name: Truck Festival
   date: 2025-07-26
   days: 2
@@ -29,15 +24,14 @@
   date: 2025-08-05
   place: Sandy Lane Farm, Tiddington
   link: https://oxforddancecamp.org/
-- name: Cowley Road Carnival (TBC)
-  date: 2025-08-31
-  place: Cowley Road
-  free: Y
 - name: Street party (TBC)
   date: 2025-09-21
   place: Wellington Square
-- name: HONK!
+- name: HONK! (street band festival)
   date: 2025-09-26
   days: 3
   place: Bradford, Yorkshire
   link: https://honkbradford.com/
+- name: Jericho Tavern (Cancer Research fundraiser) 
+  date: 2025-10-10
+  place: Jericho Tavern
