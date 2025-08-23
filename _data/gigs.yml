@@ -15,14 +15,13 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Truck Festival
-  date: 2025-07-26
-  days: 2
-  place: Hill Farm, Steventon
-  link: https://truckfestival.com/
 - name: Street party (TBC)
   date: 2025-09-21
   place: Wellington Square
+- name: Street Band Battle
+  date: 2025-09-23
+  place: Tap Social (Botley)
+  link: https://wegottickets.com/event/673002/
 - name: HONK! (street band festival)
   date: 2025-09-26
   days: 3
@@ -31,3 +30,7 @@
 - name: Jericho Tavern (Cancer Research fundraiser) 
   date: 2025-10-10
   place: Jericho Tavern
+- name: Rose Hill lights festival
+  date: 2025-11-15
+  place: Rose Hill Community Centre
+  free: Y
