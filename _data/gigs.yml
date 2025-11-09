@@ -15,19 +15,25 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Jericho Tavern (Cancer Research fundraiser) 
-  date: 2025-10-10
-  place: Jericho Tavern
 - name: Rose Hill lights festival
   date: 2025-11-15
   place: Rose Hill Community Centre
   free: Y
   link: https://www.thisisoxfordshire.co.uk/news/25490493.expect-oxfords-christmas-light-festival-2025/
+- name: Christmas studio open day
+  date: 2025-11-29
+  place: Hurst St. Studios (50 Hurst St.)
+  free: Y
 - name: Christmas Fair
   date: 2025-12-06
   place: Oxford Botanic Garden
   link: https://www.obga.ox.ac.uk/event/christmas-fair-2025
+  days: 2
 - name: Xmas Beer Bash
   date: 2025-12-13
   place: Tap Social (Botley Taproom)
   link: https://www.tapsocialmovement.com/pages/events
+- name: Christmas busking
+  date: 2025-12-16
+  place: central Oxford (from ~6pm)
+  free: Y
