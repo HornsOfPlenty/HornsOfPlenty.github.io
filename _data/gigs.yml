@@ -14,3 +14,9 @@
 #   link: https://www.cowleyroadworks.org
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
+
+- name: Truck Festival
+  date: 2026-07-25
+  days: 2
+  place: Steventon, Oxfordshire
+  link: https://truckfestival.com/
