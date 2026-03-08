@@ -15,6 +15,15 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
+- name: Oxford Folk Fest
+  date: 2026-04-11
+  place: Leiden Square, Westgate Centre
+  free: Y
+  link: https://oxfordfolkfest.org.uk/
+- name: Encaenia Garden Party
+  date: 2026-06-24
+  place: Merton College
+  link: https://www.ox.ac.uk/news-and-events/The-University-Year/Encaenia
 - name: Truck Festival
   date: 2026-07-25
   days: 2
