@@ -15,15 +15,22 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Oxford Folk Fest
-  date: 2026-04-11
-  place: Leiden Square, Westgate Centre
-  free: Y
-  link: https://oxfordfolkfest.org.uk/
 - name: May Morning
   date: 2026-05-01
   place: High Street (outside Queen's College)
   free: Y
+- name: St Swithuns May Fair
+  date: 2026-05-06
+  place: St Swithuns Primary School, Kennington
+  free: Y
+- name: Headington Festival
+  date: 2026-05-31
+  place: Bury Knowle Park, Headington
+  free: Y
+- name: "My Life My Choice"
+  date: 2026-06-06
+  place: South Oxford Adventure Playground, Whitehouse Road
+  free: Y  
 - name: Encaenia Garden Party
   date: 2026-06-24
   place: Merton College
