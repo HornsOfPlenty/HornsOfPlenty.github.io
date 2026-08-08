@@ -15,25 +15,23 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Encaenia Garden Party
-  date: 2026-06-24
-  place: Merton College
-  link: https://www.ox.ac.uk/news-and-events/The-University-Year/Encaenia
-- name: Wittfest
-  date: 2026-06-28
-  place: The Plough, Long Wittenham
-- name: Wood Farm Summer Fete
-  date: 2026-07-18
-  place: Wood Farm Rec Ground
-- name: Truck Festival
-  date: 2026-07-25
-  days: 2
-  place: Steventon, Oxfordshire
-  link: https://truckfestival.com/
 - name: Oxford Dance Camp
   date: 2026-08-11
   place: Tiddington, Oxfordshire
   link: https://www.oxforddancecamp.org/
+- name: Street Party
+  date: 2026-09-06
+  place: Percy Street
+- name: Witney in Pink
+  date: 2026-09-26
+  place: Witney town centre
+  free: Y
+- name: Oktoberfest
+  date: 2026-10-03
+  place: Tap Social (Botley)
+  link: https://www.tapsocialmovement.com/pages/events
+  free: Y
 - name: Autumn Fair
-  date: 2026-08-11
+  date: 2026-10-24
   place: Harcourt Arboretum (Nuneham Courtenay)
+  link: https://www.obga.ox.ac.uk/event/autumn-fair-harcourt-arboretum
