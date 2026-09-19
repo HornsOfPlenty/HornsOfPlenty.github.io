@@ -15,13 +15,10 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Oxford Dance Camp
-  date: 2026-08-11
-  place: Tiddington, Oxfordshire
-  link: https://www.oxforddancecamp.org/
-- name: Street Party
-  date: 2026-09-06
-  place: Percy Street
+- name: Fundraiser for Cowley Road Carnival
+  date: 2026-09-20
+  place: Manzil Way Gardens
+  free: Y
 - name: Witney in Pink
   date: 2026-09-26
   place: Witney town centre
@@ -31,7 +28,19 @@
   place: Tap Social (Botley)
   link: https://www.tapsocialmovement.com/pages/events
   free: Y
+- name: Unity March
+  date: 2026-10-17
+  place: Manzil Way to Bonn Square
+  free: Y
 - name: Autumn Fair
   date: 2026-10-24
   place: Harcourt Arboretum (Nuneham Courtenay)
   link: https://www.obga.ox.ac.uk/event/autumn-fair-harcourt-arboretum
+- name: Lights Parade
+  date: 2026-11-14
+  place: Rose Hill Community Centre
+  free: Y
+- name: Christmas Fair
+  date: 2026-12-05
+  place: Oxford Botanic Gardens
+  days: 2
