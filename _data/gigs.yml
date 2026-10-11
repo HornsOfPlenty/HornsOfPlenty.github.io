@@ -15,19 +15,6 @@
 
 # DO clean up gigs once they are passed, to ensure the website can react accordingly.
 
-- name: Fundraiser for Cowley Road Carnival
-  date: 2026-09-20
-  place: Manzil Way Gardens
-  free: Y
-- name: Witney in Pink
-  date: 2026-09-26
-  place: Witney town centre
-  free: Y
-- name: Oktoberfest
-  date: 2026-10-03
-  place: Tap Social (Botley)
-  link: https://www.tapsocialmovement.com/pages/events
-  free: Y
 - name: Unity March
   date: 2026-10-17
   place: Manzil Way to Bonn Square
